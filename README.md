@@ -1,6 +1,8 @@
 # Woodturning sim (Lathe Lab)
 
-A simulator for seeing what happens when you turn a blank on different axes. One self-contained HTML file with no build step and no dependencies: open `index.html` in a browser.
+A simulator for seeing what happens when you turn a blank on different axes. One self-contained HTML file with no build step and no dependencies.
+
+**Live: https://cameronlinton03.github.io/woodturning-sim/** (or open `index.html` in a browser).
 
 - **Cut like a lathe game.** In the side view, move the tool (left/right is along the blank, up/down is depth) and hold the button to cut. Roughing gouge, spindle gouge and parting tool (keys 1 to 3).
 - **Blanks.** Square, triangle, pentagon, hexagon, octagon, plank, cylinder, oval, with adjustable size and length.
@@ -9,6 +11,8 @@ A simulator for seeing what happens when you turn a blank on different axes. One
 - **Views.** Side view (the workbench), end-on section under the tool, and a WebGL2 ray-marched 3D view.
 
 Keys: Space starts/stops the lathe, Z undoes.
+
+**On a phone or tablet:** touch the side view and drag to cut (the tool tip sits above your finger so you can see it). The end view scrolls with the page; tap *Move axis centre* to drag the axis dot instead. In the 3D view, drag sideways to orbit and pinch to zoom. Landscape gives a bigger workbench. Depth is about one pixel per millimetre in portrait, so for fine cuts use landscape or a larger screen.
 
 ## How it works
 
